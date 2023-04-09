@@ -13,11 +13,11 @@ fetch('/data/poster_buesos.geojson', {
 })
 
 
-const map = L.map('map').setView([54.7836, 9.4321], 14)
+const map = L.map('map').setView([54.788491708399,9.43578807487305], 14)
 
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 17,
+    maxZoom: 13,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map)
 
@@ -53,7 +53,7 @@ osmGeocoder.on('markgeocode', e => {
 function onMapClick(evt) {
     const latLngs = [evt.target.getLatLng()]
     const markerBounds = L.latLngBounds(latLngs)
-    map.fitBounds(markerBounds)
+    map.fitBounds(markerBounds, {padding: [400, 400]})
 
     const imageSource = evt.target.feature.properties.image
     const imageTitle = evt.target.feature.properties.name
