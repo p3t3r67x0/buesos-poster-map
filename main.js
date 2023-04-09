@@ -55,29 +55,30 @@ function onMapClick(evt) {
     const markerBounds = L.latLngBounds(latLngs)
     map.fitBounds(markerBounds)
 
-    const array = evt.target.feature.properties.candidates
-    const list = document.createElement('ul')
+    const imageSource = evt.target.feature.properties.image
+    const imageTitle = evt.target.feature.properties.name
 
-    list.classList.add('p-3')
+    const imageElement = document.createElement('img')
+    const titleElement = document.createElement('p')
+    const titleSource = document.createTextNode(imageTitle)
 
-    for (let i = 0; i < array.length; i++) {
-        const item = document.createElement('li')
-        const candidate = `<strong>${array[i][0]}</strong><br><p>${array[i][1]}, ${array[i][2]}</p>`
+    titleElement.appendChild(titleSource)
+    titleElement.classList.add('text-sm', 'open-sans', 'px-3', 'pb-3')
 
-        item.classList.add('mb-2')
-        item.innerHTML = candidate
-        list.appendChild(item)
-    }
-
+    imageElement.classList.add('p-3')
+    imageElement.setAttribute('src', imageSource)
+    imageElement.setAttribute('target', '_blank')
+ 
     document.getElementById('details').innerHTML = ''
-    document.getElementById('details').appendChild(list)
+    document.getElementById('details').appendChild(imageElement)
+    document.getElementById('details').appendChild(titleElement)
 
     evt.preventDefault
 }
 
 
 function onEachFeature(feature, layer) {
-    const label = `Wahlkreis ${feature.properties.name}`
+    const label = `Ort ${feature.properties.name}`
 
     layer.on('click', function(evt) {
         onMapClick(evt)
