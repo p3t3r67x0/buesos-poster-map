@@ -66,7 +66,7 @@ function onMapClick(evt) {
     titleElement.classList.add('text-sm', 'open-sans', 'px-3', 'pb-3')
 
     imageElement.classList.add('p-3')
-    imageElement.setAttribute('src', imageSource)
+    imageElement.setAttribute('src', `${imageSource}?t=${Math.floor(Date.now() / 1000)}`)
     imageElement.setAttribute('target', '_blank')
  
     document.getElementById('details').innerHTML = ''
