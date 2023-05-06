@@ -4,7 +4,7 @@
 
 ## Interaktive Karte
 
-Während der Vorbereitungen haben wir uns für die Wahlvorbereitungen der anstehenden Kommunalwahlen in Flensburg gefragt, in welchem Quartier und an welcher Straße unsere Wahlplakate besonders attraktiv zur Geltung kommen können.
+Während der Wahlvorbereitungen für die anstehenden Kommunalwahlen in Flensburg haben wir uns gefragt, in welchem Quartier und an welcher Straße unsere Wahlplakate besonders attraktiv zur Geltung kommen können.
 
 Dazu haben wir uns folgende Fragen gestellt:
 - Wie sahen die Wahlergebnisse der letzten Kommunalwahl aus?
