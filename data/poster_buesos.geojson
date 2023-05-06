@@ -2,11 +2,11 @@
 {"type":"Feature","properties":{"id":"26","image":"/static/26.jpg","name":"Jürgensrgaderstr"},"geometry":{"type":"Point","coordinates":[9.444667,54.787805]}},
 {"type":"Feature","properties":{"id":"24","image":"/static/24.jpg","name":"Kirche Jürgensby"},"geometry":{"type":"Point","coordinates":[9.442228,54.791119]}},
 {"type":"Feature","properties":{"id":"25","image":"/static/25.jpg","name":"Brixstraße"},"geometry":{"type":"Point","coordinates":[9.442413,54.788004]}},
-{"type":"Feature","properties":{"id":"23","image":"/static/23.jpg","name":"Bachstraße 21"},"geometry":{"type":"Point","coordinates":[9.445233,54.791672]}},
+{"type":"Feature","properties":{"id":"23","image":"/static/23.jpg","name":"Bachstraße"},"geometry":{"type":"Point","coordinates":[9.445233,54.791672]}},
 {"type":"Feature","properties":{"id":"22","image":"/static/22.jpg","name":"De Lütte Koopman"},"geometry":{"type":"Point","coordinates":[9.44482,54.79023]}},
 {"type":"Feature","properties":{"id":"21","image":"/static/21.jpg","name":"Theater Schule Jürgensby"},"geometry":{"type":"Point","coordinates":[9.447976,54.791535]}},
 {"type":"Feature","properties":{"id":"20","image":"/static/20.jpg","name":"Stadion Rewe"},"geometry":{"type":"Point","coordinates":[9.454262,54.799206]}},
-{"type":"Feature","properties":{"id":"19","image":"/static/19.jpg","name":"Polizei twedter"},"geometry":{"type":"Point","coordinates":[9.456982,54.802014]}},
+{"type":"Feature","properties":{"id":"19","image":"/static/19.jpg","name":"Polizeistation Mürwik"},"geometry":{"type":"Point","coordinates":[9.456982,54.802014]}},
 {"type":"Feature","properties":{"id":"18","image":"/static/18.jpg","name":"Engelsby Rewe Siedlung"},"geometry":{"type":"Point","coordinates":[9.478561,54.792182]}},
 {"type":"Feature","properties":{"id":"17","image":"/static/17.jpg","name":"Tarup Nähe Gabi"},"geometry":{"type":"Point","coordinates":[9.47027,54.782547]}},
 {"type":"Feature","properties":{"id":"16","image":"/static/16.jpg","name":"Campus Siedlung Kanzleistraße"},"geometry":{"type":"Point","coordinates":[9.44643269719,54.7756172727]}},
@@ -46,4 +46,4 @@
 {"type":"Feature","properties":{"name":"Wasserloser Weg","id":"45","image":"/static/45.jpg"},"geometry":{"type":"Point","coordinates":[9.475912783769354,54.80077264712686]}},
 {"type":"Feature","properties":{"name":"Osterallee","id":"46","image":"/static/46.jpg"},"geometry":{"type":"Point","coordinates":[9.487121457498883,54.80359302875958]}},
 {"type":"Feature","properties":{"name":"Wees","id":"47","image":"/static/47.jpg"},"geometry":{"type":"Point","coordinates":[9.505465076512975,54.804961607211006]}},
-{"type":"Feature","properties":{"name":"Am Lachsbach","id":"48","image":"/static/48.jpg"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}}]}
+{"type":"Feature","properties":{"name":"Twedter Plack","id":"48","image":"/static/48.jpg"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}}]}
