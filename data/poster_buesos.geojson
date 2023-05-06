@@ -8,7 +8,6 @@
     {"type":"Feature","properties":{"id":"6","image":"/static/6.jpg","name":"Mürwiker Straße Shell"},"geometry":{"type":"Point","coordinates":[9.455916208282682,54.80330074405851]}},
     {"type":"Feature","properties":{"id":"7","image":"/static/7.jpg","name":"Unterer Lautrupweg"},"geometry":{"type":"Point","coordinates":[9.439472492177792,54.79298560910695]}},
     {"type":"Feature","properties":{"id":"8","image":"/static/8.jpg","name":"Heinrichstraße IHK"},"geometry":{"type":"Point","coordinates":[9.44156253486294,54.78179407696729]}},
-    {"type":"Feature","properties":{"id":"9","image":"/static/9.jpg","name":"Schleswiger Straße"},"geometry":{"type":"Point","coordinates":[9.435179667284169,54.775422337153024]}},
     {"type":"Feature","properties":{"id":"10","image":"/static/10.jpg","name":"Nordertor KRAN"},"geometry":{"type":"Point","coordinates":[9.430420982205483,54.79572952893714]}},
     {"type":"Feature","properties":{"id":"11","image":"/static/11.jpg","name":"Schreibwaren"},"geometry":{"type":"Point","coordinates":[9.4353175072,54.7617928844]}},
     {"type":"Feature","properties":{"id":"12","image":"/static/12.jpg","name":"Burger King"},"geometry":{"type":"Point","coordinates":[9.436202,54.76125]}},
