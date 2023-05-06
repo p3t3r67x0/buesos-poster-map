@@ -14,7 +14,7 @@ Dazu haben wir uns folgende Fragen gestellt:
 
 ## Technische Umsetzung
 
-Nach diesen Überlegungen haben wir versucht die Polygone der Wahlkreise und Wahlbezirke der Stadt Flensburg zu bekommen, jedoch leider bis heute keine Antwort erhalten. So haben wir uns entschieden, die Geodaten der plakatierten Orte nach der Spezifikation [RFC 7946](https://geojson.org/) in eine GeoJSON-Datei einzupflegen und mittels der Open Source Biblothek [LeafletJS](https://leafletjs.com/) auf Basis der [OpenSteetMap](https://www.openstreetmap.de/) Karte darzustellen. 
+Nach diesen Überlegungen haben wir die Polygone der Wahlkreise und Wahlbezirke bei der Stadt Flensburg angefragt, jedoch leider unzuverlässige Daten erhalten. So haben wir uns entschieden, lediglich Geodaten der plakatierten Orte nach der Spezifikation [RFC 7946](https://geojson.org/) in eine GeoJSON-Datei einzupflegen und mittels der Open Source Biblothek [LeafletJS](https://leafletjs.com/) auf Basis der [OpenSteetMap](https://www.openstreetmap.de/) Karte darzustellen. 
 
 
 ## Idielle Zielsetzung
