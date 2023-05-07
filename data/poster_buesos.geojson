@@ -39,7 +39,6 @@
     {"type":"Feature","properties":{"id":"38","image":"/static/38.jpg","name":"Apenrader Nord"},"geometry":{"type":"Point","coordinates":[9.421815573737007,54.81062961289765]}},
     {"type":"Feature","properties":{"id":"39","image":"/static/39.jpg","name":"Richtung Wassersleben"},"geometry":{"type":"Point","coordinates":[9.421391489029562,54.823475709417814]}},
     {"type":"Feature","properties":{"id":"40","image":"/static/40.jpg","name":"Ostseebad Werft"},"geometry":{"type":"Point","coordinates":[9.429980033944776,54.807388481162675]}},
-    {"type":"Feature","properties":{"id":"41","image":"/static/41.jpg","name":"Schlachthof"},"geometry":{"type":"Point","coordinates":[9.42715806,54.80100812]}},
     {"type":"Feature","properties":{"id":"42","image":"/static/42.jpg","name":"Waldstrasse"},"geometry":{"type":"Point","coordinates":[9.412047375874792,54.79495928544982]}},
     {"type":"Feature","properties":{"id":"43","image":"/static/43.jpg","name":"Schiffbrücke"},"geometry":{"type":"Point","coordinates":[9.43578807487305,54.788491708399]}},
     {"type":"Feature","properties":{"id":"44","image":"/static/44.jpg","name":"Adelbylund"},"geometry":{"type":"Point","coordinates":[9.457653486323904,54.781021320055956]}},
