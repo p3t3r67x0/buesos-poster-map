@@ -1,6 +1,9 @@
 # BüsoS Poster Map
 
 
+![Screenshot BüsoS Poster Map](https://github.com/p3t3r67x0/buesos-poster-map/blob/d028817d6e7dc55a9661540a94c3095b42a5b780/buesos_poster_map.png)
+
+
 
 ## Interaktive Karte
 
@@ -14,7 +17,7 @@ Dazu haben wir uns folgende Fragen gestellt:
 
 ## Technische Umsetzung
 
-Nach diesen Überlegungen haben wir versucht die Polygone der Wahlkreise und Wahlbezirke der Stadt Flensburg zu bekommen, jedoch leider bis heute keine Antwort erhalten. So haben wir uns entschieden, die Geodaten der plakatierten Orte nach der Spezifikation [RFC 7946](https://geojson.org/) in eine GeoJSON-Datei einzupflegen und mittels der Open Source Biblothek [LeafletJS](https://leafletjs.com/) auf Basis der [OpenSteetMap](https://www.openstreetmap.de/) Karte darzustellen. 
+Wir haben bei der Stadt Flensburg eine Informationsfreiheitsanfrage eingereicht. Die Anfrage ist über das Büro des Wahlleiters der Stadt Flensburg gegangen. Wir haben die Polygonen der Wahlkreise und Wahlbezirke der Stadt Flensburg bekommen. Zusätzkich haben wir uns entschieden, die Koordinaten deder Orte an denen wir plakatiert haben nach der Spezifikation [RFC 7946](https://geojson.org/) in eine GeoJSON-Datei einzupflegen und mittels der Open Source Biblothek [LeafletJS](https://leafletjs.com/) auf Basis der [OpenSteetMap](https://www.openstreetmap.de/) Karte darzustellen. Für die Darstellung binden wir zwei Ebenen ein, die untere Ebene beinhaltet die Polygonen der Wahlbezirke und die obere Ebene die Koordinaten der Plakate.
 
 
 ## Idielle Zielsetzung
