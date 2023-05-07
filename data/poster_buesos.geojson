@@ -35,7 +35,7 @@
     {"type":"Feature","properties":{"id":"34","image":"/static/34.jpg","name":"Marienallee Rewe"},"geometry":{"type":"Point","coordinates":[9.415327279983106,54.77857096712411]}},
     {"type":"Feature","properties":{"id":"35","image":"/static/35.jpg","name":"Westerallee"},"geometry":{"type":"Point","coordinates":[9.405719368780384,54.782823060442695]}},
     {"type":"Feature","properties":{"id":"36","image":"/static/36.jpg","name":"Weiche"},"geometry":{"type":"Point","coordinates":[9.392771001007024,54.760503476273925]}},
-    {"type":"Feature","properties":{"id":"37","image":"/static/37.jpg","name":"Weiche Schell"},"geometry":{"type":"Point","coordinates":[9.401613788730034,54.756464469154835]}},
+    {"type":"Feature","properties":{"id":"37","image":"/static/37.jpg","name":"Weiche Shell"},"geometry":{"type":"Point","coordinates":[9.401613788730034,54.756464469154835]}},
     {"type":"Feature","properties":{"id":"38","image":"/static/38.jpg","name":"Apenrader Nord"},"geometry":{"type":"Point","coordinates":[9.421815573737007,54.81062961289765]}},
     {"type":"Feature","properties":{"id":"39","image":"/static/39.jpg","name":"Richtung Wassersleben"},"geometry":{"type":"Point","coordinates":[9.421391489029562,54.823475709417814]}},
     {"type":"Feature","properties":{"id":"40","image":"/static/40.jpg","name":"Ostseebad Werft"},"geometry":{"type":"Point","coordinates":[9.429980033944776,54.807388481162675]}},
