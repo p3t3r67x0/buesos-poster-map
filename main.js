@@ -1,5 +1,18 @@
+fetch('/data/kommunalwahlbezirke_2023.geojson', {
+    method: 'GET'
+})
+.then((response) => {
+    return response.json()
+})
+.then((data) => {
+    addPolygons(data);
+})
+.catch(function (error) {
+    console.log(error);
+})
+
+
 fetch('/data/poster_buesos.geojson', {
-// fetch('https://map.de/query/xxx', {
     method: 'GET'
 })
 .then((response) => {
@@ -17,7 +30,7 @@ const map = L.map('map').setView([54.788491708399,9.43578807487305], 14)
 
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 13,
+    maxZoom: 15,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map)
 
@@ -48,6 +61,17 @@ osmGeocoder.on('markgeocode', e => {
     const bounds = L.latLngBounds(e.geocode.bbox._southWest, e.geocode.bbox._northEast)
     map.fitBounds(bounds)
 })
+
+
+function polygonStyle(feature) {
+    return {
+        color: '#fff',
+        fillColor: '#ec583c',
+        fillOpacity: 0.3,
+        opacity: 0.6,
+        weight: 2
+    }
+}
 
 
 function onMapClick(evt) {
@@ -91,10 +115,14 @@ function onEachFeature(feature, layer) {
 }
 
 
+function addPolygons(data) {
+    const layer = L.geoJson(data, {style: polygonStyle}).addTo(map)
+}
+
 function addData(data) {
     const layer = L.geoJson(data, {
         onEachFeature: onEachFeature
     }).addTo(map)
 
-    map.fitBounds(layer.getBounds(), {padding: [0, 0, 0, 0]})
+    map.fitBounds(layer.getBounds())
 }
