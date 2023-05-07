@@ -15,7 +15,7 @@
     {"type":"Feature","properties":{"id":"14","image":"/static/14.jpg","name":"Aral Husumer Str."},"geometry":{"type":"Point","coordinates":[9.425205,54.773769]}},
     {"type":"Feature","properties":{"id":"15","image":"/static/15.jpg","name":"Oil! Husumer Str."},"geometry":{"type":"Point","coordinates":[9.43067056272,54.7774616682]}},
     {"type":"Feature","properties":{"id":"16","image":"/static/16.jpg","name":"Campus Siedlung Kanzleistraße"},"geometry":{"type":"Point","coordinates":[9.44643269719,54.7756172727]}},
-    {"type":"Feature","properties":{"id":"17","image":"/static/17.jpg","name":"Tarup Nähe Gabi"},"geometry":{"type":"Point","coordinates":[9.47027,54.782547]}},
+    {"type":"Feature","properties":{"id":"17","image":"/static/17.jpg","name":"Taruper Hauptstr. 5 (nähe Villekula)"},"geometry":{"type":"Point","coordinates":[9.47027,54.782547]}},
     {"type":"Feature","properties":{"id":"18","image":"/static/18.jpg","name":"Merkurstraße Engelsby (Rewe)"},"geometry":{"type":"Point","coordinates":[9.478561,54.792182]}},
     {"type":"Feature","properties":{"id":"19","image":"/static/19.jpg","name":"Polizeistation Mürwik"},"geometry":{"type":"Point","coordinates":[9.456982,54.802014]}},
     {"type":"Feature","properties":{"id":"20","image":"/static/20.jpg","name":"Stadion Rewe"},"geometry":{"type":"Point","coordinates":[9.454262,54.799206]}},
