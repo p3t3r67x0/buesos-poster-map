@@ -12,7 +12,6 @@
     {"type":"Feature","properties":{"id":"11","image":"/static/11.jpg","name":"Schleswiger Str. (J. Erichsen)"},"geometry":{"type":"Point","coordinates":[9.4353175072,54.7617928844]}},
     {"type":"Feature","properties":{"id":"12","image":"/static/12.jpg","name":"Lise-Meitner-Str. (Burger King)"},"geometry":{"type":"Point","coordinates":[9.436202,54.76125]}},
     {"type":"Feature","properties":{"id":"13","image":"/static/13.jpg","name":"Zur Bleiche (Jysk)"},"geometry":{"type":"Point","coordinates":[9.434415,54.770715]}},
-    {"type":"Feature","properties":{"id":"14","image":"/static/14.jpg","name":"Husumer Str. (Aral)"},"geometry":{"type":"Point","coordinates":[9.425205,54.773769]}},
     {"type":"Feature","properties":{"id":"15","image":"/static/15.jpg","name":"Husumer Str. (Oil!)"},"geometry":{"type":"Point","coordinates":[9.43067056272,54.7774616682]}},
     {"type":"Feature","properties":{"id":"16","image":"/static/16.jpg","name":"Kanzleistraße (Campus Siedlung)"},"geometry":{"type":"Point","coordinates":[9.44643269719,54.7756172727]}},
     {"type":"Feature","properties":{"id":"17","image":"/static/17.jpg","name":"Taruper Hauptstr. 5 (nähe Villekula)"},"geometry":{"type":"Point","coordinates":[9.47027,54.782547]}},
@@ -37,14 +36,12 @@
     {"type":"Feature","properties":{"id":"36","image":"/static/36.jpg","name":"Alter Husumer Weg"},"geometry":{"type":"Point","coordinates":[9.392771001007024,54.760503476273925]}},
     {"type":"Feature","properties":{"id":"37","image":"/static/37.jpg","name":"Ochsenweg (Shell)"},"geometry":{"type":"Point","coordinates":[9.401613788730034,54.756464469154835]}},
     {"type":"Feature","properties":{"id":"38","image":"/static/38.jpg","name":"Apenrader Nord"},"geometry":{"type":"Point","coordinates":[9.421815573737007,54.81062961289765]}},
-    {"type":"Feature","properties":{"id":"39","image":"/static/39.jpg","name":"Richtung Wassersleben"},"geometry":{"type":"Point","coordinates":[9.421391489029562,54.823475709417814]}},
     {"type":"Feature","properties":{"id":"40","image":"/static/40.jpg","name":"Ostseebad Werft"},"geometry":{"type":"Point","coordinates":[9.429980033944776,54.807388481162675]}},
     {"type":"Feature","properties":{"id":"42","image":"/static/42.jpg","name":"Waldstrasse"},"geometry":{"type":"Point","coordinates":[9.412047375874792,54.79495928544982]}},
     {"type":"Feature","properties":{"id":"43","image":"/static/43.jpg","name":"Schiffbrücke"},"geometry":{"type":"Point","coordinates":[9.43578807487305,54.788491708399]}},
     {"type":"Feature","properties":{"id":"44","image":"/static/44.jpg","name":"Adelbylund"},"geometry":{"type":"Point","coordinates":[9.457653486323904,54.781021320055956]}},
     {"type":"Feature","properties":{"id":"45","image":"/static/45.jpg","name":"Wasserlooser Weg"},"geometry":{"type":"Point","coordinates":[9.475912783769354,54.80077264712686]}},
     {"type":"Feature","properties":{"id":"46","image":"/static/46.jpg","name":"Osterallee"},"geometry":{"type":"Point","coordinates":[9.487121457498883,54.80359302875958]}},
-    {"type":"Feature","properties":{"id":"47","image":"/static/47.jpg","name":"Wees"},"geometry":{"type":"Point","coordinates":[9.505465076512975,54.804961607211006]}},
     {"type":"Feature","properties":{"id":"48","image":"/static/48.jpg","name":"Fördestr. 63 (ggü. Twedter Plack)"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}}
   ]
 }
