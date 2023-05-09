@@ -42,6 +42,19 @@
     {"type":"Feature","properties":{"id":"86","name":"Adelbylund"},"geometry":{"type":"Point","coordinates":[9.457653486323904,54.781021320055956]}},
     {"type":"Feature","properties":{"id":"120","name":"Schottweg 37"},"geometry":{"type":"Point","coordinates":[9.475912783769354,54.80077264712686]}},
     {"type":"Feature","properties":{"id":"119","name":"Bushaltestelle Kauslund Osterallee"},"geometry":{"type":"Point","coordinates":[9.487121457498883,54.80359302875958]}},
-    {"type":"Feature","properties":{"id":"130","name":"Fördestr. 63 (ggü. Twedter Plack)"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}}
+    {"type":"Feature","properties":{"id":"130","name":"Fördestr. 63 (ggü. Twedter Plack)"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}},
+    {"type":"Feature","properties":{"id":"22","name":"Schiffbrücke (Onkel Jule)"},"geometry":{"type":"Point","coordinates":[9.433482554569084,54.79213526833207]}},
+    {"type":"Feature","properties":{"id":"26","name":"Kurze Straße 8 (ggü. Tableau)"},"geometry":{"type":"Point","coordinates":[9.43932,54.78744]}},
+    {"type":"Feature","properties":{"id":"27","name":"Heiligengeistgang oben (Parkplatz am Nordergraben)"},"geometry":{"type":"Point","coordinates":[9.431586781805763,54.78740098895401]}},
+    {"type":"Feature","properties":{"id":"28","name":"Bushaltestelle Burgplatz"},"geometry":{"type":"Point","coordinates":[9.42470024110905,54.791226327938354]}},
+    {"type":"Feature","properties":{"id":"29","name":"Kreuzung Marienhölzung / Nordergraben"},"geometry":{"type":"Point","coordinates":[9.427783411524254,54.789012412442204]}},
+    {"type":"Feature","properties":{"id":"38","name":"Museumsvorplatz (Kreuzung Friedrichstr. / Reepschlägerbahn)"},"geometry":{"type":"Point","coordinates":[9.43043115291023,54.78530947200065]}},
+    {"type":"Feature","properties":{"id":"39","name":"Christiansenpark"},"geometry":{"type":"Point","coordinates":[9.426909475161876,54.78534789399688]}},
+    {"type":"Feature","properties":{"id":"41","name":"Bushaltestelle Am Ochsenweg"},"geometry":{"type":"Point","coordinates":[9.416567788403672,54.78197657238171]}},
+    {"type":"Feature","properties":{"id":"60","name":"Serpentine unten"},"geometry":{"type":"Point","coordinates":[9.436162953183631,54.77505195397654]}},
+    {"type":"Feature","properties":{"id":"62","name":"Friedrichstraße 1 (ggü. Am Pferdewasser)"},"geometry":{"type":"Point","coordinates":[9.433250647297253,54.781946821150584]}},
+    {"type":"Feature","properties":{"id":"64","name":"Augustastraße (Mauseloch)"},"geometry":{"type":"Point","coordinates":[9.439155498578195,54.78543908205125]}},
+    {"type":"Feature","properties":{"id":"65","name":"Dr.Todsen Straße (Bushaltestelle Ecke Töpferstraße)"},"geometry":{"type":"Point","coordinates":[9.43695331262573,54.7818662479209]}},
+    {"type":"Feature","properties":{"id":"66","name":"Bushaltestelle Neumarkt"},"geometry":{"type":"Point","coordinates":[9.435537366939785,54.780505641410855]}}
   ]
 }
