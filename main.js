@@ -79,7 +79,7 @@ function onMapClick(evt) {
     const markerBounds = L.latLngBounds(latLngs)
     map.fitBounds(markerBounds, {padding: [400, 400]})
 
-    const imageSource = evt.target.feature.properties.image
+    const imageId = evt.target.feature.properties.id
     const imageTitle = evt.target.feature.properties.name
 
     const imageElement = document.createElement('img')
@@ -90,7 +90,7 @@ function onMapClick(evt) {
     titleElement.classList.add('text-sm', 'open-sans', 'px-3', 'pb-3')
 
     imageElement.classList.add('p-3')
-    imageElement.setAttribute('src', `${imageSource}?t=${Math.floor(Date.now() / 1000)}`)
+    imageElement.setAttribute('src', `/static/${imageId}.jpg?t=${Math.floor(Date.now() / 1000)}`)
     imageElement.setAttribute('target', '_blank')
  
     document.getElementById('details').innerHTML = ''
