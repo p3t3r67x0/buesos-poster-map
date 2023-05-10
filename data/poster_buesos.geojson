@@ -60,9 +60,20 @@
     {"type":"Feature","properties":{"id":"97","name":"Merkurstr. 82 (ggü. Rewe)"},"geometry":{"type":"Point","coordinates":[9.478561,54.792182]}},
     {"type":"Feature","properties":{"id":"98","name":"Trögelsbyer Weg 59–65 (Seite Parkplatz)"},"geometry":{"type":"Point","coordinates":[9.47661589567906,54.78999383775635]}},
     {"type":"Feature","properties":{"id":"113","name":"Fördestraße 5 (KBA)"},"geometry":{"type":"Point","coordinates":[9.463078814451121,54.812550172522556]}},
+    {"type":"Feature","properties":{"id":"114","name":"Bushaltestelle Fördestraße (ggü. SH.Z)"},"geometry":{"type":"Point","coordinates":[9.4663833333,54.8144527778]}},
     {"type":"Feature","properties":{"id":"119","name":"Bushaltestelle Kauslund Osterallee"},"geometry":{"type":"Point","coordinates":[9.487121457498883,54.80359302875958]}},
     {"type":"Feature","properties":{"id":"120","name":"Schottweg 37"},"geometry":{"type":"Point","coordinates":[9.475912783769354,54.80077264712686]}},
+    {"type":"Feature","properties":{"id":"121","name":"Bushaltestellen Kiefernweg"},"geometry":{"type":"Point","coordinates":[9.4810666667,54.8103750000]}},
+    {"type":"Feature","properties":{"id":"122","name":"Ecke Marrensdamm 35 / Marrenshof"},"geometry":{"type":"Point","coordinates":[9.4771805556,54.8120277778]}},
     {"type":"Feature","properties":{"id":"123","name":"Friedheim 56"},"geometry":{"type":"Point","coordinates":[9.472804806164492,54.80986320909607]}},
-    {"type":"Feature","properties":{"id":"130","name":"Fördestr. 63 (ggü. Twedter Plack)"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}}
+    {"type":"Feature","properties":{"id":"124","name":"Solitüde Strand (Ewaldtweg) "},"geometry":{"type":"Point","coordinates":[9.4881222222,54.8221444444]}},
+    {"type":"Feature","properties":{"id":"125","name":"Tremmerupweg 11"},"geometry":{"type":"Point","coordinates":[9.4895250000,54.8138500000]}},
+    {"type":"Feature","properties":{"id":"126","name":"Kreuzung Fördestr. / Tremmerupweg"},"geometry":{"type":"Point","coordinates":[9.4877361111,54.8180861111]}},
+    {"type":"Feature","properties":{"id":"127","name":"Ecke Twedter Plack / Marrensdamm"},"geometry":{"type":"Point","coordinates":[9.4725888889,54.8155305556]}},
+    {"type":"Feature","properties":{"id":"128","name":"Marrensdamm 33"},"geometry":{"type":"Point","coordinates":[9.4763027778,54.8129777778]}},
+    {"type":"Feature","properties":{"id":"129","name":"Westerkoppel 1 / Ecke Kiefernweg"},"geometry":{"type":"Point","coordinates":[9.4786361111,54.8147861111]}},
+    {"type":"Feature","properties":{"id":"130","name":"Fördestr. 63 (ggü. Twedter Plack)"},"geometry":{"type":"Point","coordinates":[9.471893118646378,54.816154688315706]}},
+    {"type":"Feature","properties":{"id":"131","name":"Fahrensodde"},"geometry":{"type":"Point","coordinates":[9.4704805556,54.8220388889]}},
+    {"type":"Feature","properties":{"id":"132","name":"Ecke Twedter Mark / Am Soot"},"geometry":{"type":"Point","coordinates":[9.4665305556,54.8164000000]}}
   ]
 }
