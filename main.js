@@ -104,7 +104,7 @@ function onMapClick(evt) {
 
 
 function onEachFeature(feature, layer) {
-    const label = `Ort ${feature.properties.name}`
+    const label = `Wahlbezirk ${feature.properties.district}:<br/><strong>${feature.properties.name}</strong>`
 
     layer.on('click', function(evt) {
         onMapClick(evt)
