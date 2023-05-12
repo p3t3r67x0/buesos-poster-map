@@ -89,20 +89,22 @@ function onMapClick(evt) {
     titleElement.appendChild(titleSource)
     titleElement.classList.add('text-sm', 'open-sans', 'px-3', 'pb-3')
 
+    const detailBox = document.getElementById('details');
+    detailBox.innerHTML = ''
+    detailBox.appendChild(titleElement)
+
+    imageElement.onload = () => detailBox.appendChild(imageElement)
+    imageElement.onerror = () => { titleSource.textContent += ' (kein Bild verfügbar)' }
     imageElement.classList.add('p-3')
     imageElement.setAttribute('src', `/static/${imageId}.jpg?t=${Math.floor(Date.now() / 1000)}`)
     imageElement.setAttribute('target', '_blank')
- 
-    document.getElementById('details').innerHTML = ''
-    document.getElementById('details').appendChild(imageElement)
-    document.getElementById('details').appendChild(titleElement)
 
     evt.preventDefault
 }
 
 
 function onEachFeature(feature, layer) {
-    const label = `Ort ${feature.properties.name}`
+    const label = `Wahlbezirk ${feature.properties.district}:<br/><strong>${feature.properties.name}</strong>`
 
     layer.on('click', function(evt) {
         onMapClick(evt)
