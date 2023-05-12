@@ -7,7 +7,7 @@
 
 ## Interaktive Karte
 
-Während der Wahlvorbereitungen für die anstehenden Kommunalwahlen in Flensburg haben wir uns gefragt, in welchem Quartier und an welcher Straße unsere Wahlplakate besonders attraktiv zur Geltung kommen können.
+Während der Vorbereitungen für die anstehenden Kommunalwahlen in Flensburg haben wir uns gefragt, in welchem Quartier und an welcher Straße unsere Wahlplakate besonders attraktiv zur Geltung kommen können.
 
 Dazu haben wir uns folgende Fragen gestellt:
 - Wie sahen die Wahlergebnisse der letzten Kommunalwahl aus?
@@ -17,7 +17,7 @@ Dazu haben wir uns folgende Fragen gestellt:
 
 ## Technische Umsetzung
 
-Wir haben bei der Stadt Flensburg eine Informationsfreiheitsanfrage eingereicht. Die Anfrage ist über das Büro des Wahlleiters der Stadt Flensburg gegangen. Wir haben die Polygonen der Wahlkreise und Wahlbezirke der Stadt Flensburg bekommen. Zusätzkich haben wir uns entschieden, die Koordinaten deder Orte an denen wir plakatiert haben nach der Spezifikation [RFC 7946](https://geojson.org/) in eine GeoJSON-Datei einzupflegen und mittels der Open Source Biblothek [LeafletJS](https://leafletjs.com/) auf Basis der [OpenSteetMap](https://www.openstreetmap.de/) Karte darzustellen. Für die Darstellung binden wir zwei Ebenen ein, die untere Ebene beinhaltet die Polygonen der Wahlbezirke und die obere Ebene die Koordinaten der Plakate.
+Wir haben bei der Stadt Flensburg eine Informationsfreiheitsanfrage eingereicht. Die Anfrage ist über das Büro des Wahlleiters der Stadt Flensburg gegangen. Wir haben die Polygone der Wahlkreise und Wahlbezirke der Stadt Flensburg bekommen. Zusätzlich haben wir uns entschieden, die Koordinaten der Orte an denen wir plakatiert haben nach der Spezifikation [RFC 7946](https://geojson.org/) in eine GeoJSON-Datei einzupflegen und mittels der Open Source Biblothek [LeafletJS](https://leafletjs.com/) auf Basis der [OpenSteetMap](https://www.openstreetmap.de/) Karte darzustellen. Für die Darstellung binden wir zwei Ebenen ein, die untere Ebene beinhaltet die Polygone der Wahlbezirke und die obere Ebene die Koordinaten der Plakate.
 
 
 ## Idielle Zielsetzung
