@@ -99,7 +99,7 @@
     {"type":"Feature","properties":{"id":"103","name":"Bushaltestelle Hestoft-Nord","district":35},"geometry":{"type":"Point","coordinates":[9.4645944444,54.7964083333]}},
     {"type":"Feature","properties":{"id":"104","name":"Spielplatz Ostlandstraße","district":35},"geometry":{"type":"Point","coordinates":[9.4559222222,54.7961305556]}},
     {"type":"Feature","properties":{"id":"105","name":"Ecke Bohlberg / Ostlandstraße","district":35},"geometry":{"type":"Point","coordinates":[9.4580888889,54.7939194444]}},
-    {"type":"Feature","properties":{"id":"106","name":"Kreuzung Alsterbogen / Eiderstraße","district":36},"geometry":{"type":"Point","coordinates":[9.4637777778,54.7986694444]}},
+    {"type":"Feature","properties":{"id":"106","name":"Kreuzung Alsterbogen / Eiderstraße","district":36},"geometry":{"type":"Point","coordinates":[9.460427,54.799168]}},
     {"type":"Feature","properties":{"id":"107","name":"Bushaltestelle Alsterbogen (Hundepark)","district":36},"geometry":{"type":"Point","coordinates":[9.46351074555001,54.799069569407536]}},
     {"type":"Feature","properties":{"id":"108","name":"Ecke Treeneweg / Eiderstr.","district":36},"geometry":{"type":"Point","coordinates":[9.4586305556,54.7997805556]}},
     {"type":"Feature","properties":{"id":"109","name":"Schleibogen (kurz vor Kreuzung Elbestr.)","district":37},"geometry":{"type":"Point","coordinates":[9.4639972222,54.8008277778]}},
